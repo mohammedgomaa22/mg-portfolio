@@ -38,8 +38,8 @@ li {
     list-style: none;
 }
 /* Up Page */
-.up {
-    display: flex;
+.get-up {
+    display: none;
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -48,7 +48,7 @@ li {
     opacity: .8;
     transition: var(--main-duration);
 }
-.up a {
+.get-up a {
     color: var(--main-color);
     height: 100%;
     width: 100%;
