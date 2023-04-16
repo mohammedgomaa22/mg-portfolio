@@ -48,7 +48,7 @@ li {
     opacity: .8;
     transition: var(--main-duration);
 }
-.get-up a {
+.get-up i {
     color: var(--main-color);
     height: 100%;
     width: 100%;
@@ -964,6 +964,7 @@ header .head i {
     top: 0;
     height: 100%;
     background-color: var(--main-color);
+    transition: 0.5s;
 }
 /* ********** End Our Skills ********** */
 /* ********** Start How It Works ********** */
